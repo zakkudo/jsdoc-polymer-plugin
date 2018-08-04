@@ -55,4 +55,7 @@ Added tags include
 - `@mixinFunction`
 - `@polymerBehavior`
 
+Includes typedefs for
 
+- `Polymer` namespace
+- `Polymer.PolymerElement` typedef to describe a polymer class

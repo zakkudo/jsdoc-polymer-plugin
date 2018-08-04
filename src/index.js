@@ -22,5 +22,10 @@ exports.handlers = {
     polymer.newDocletHandler(e);
     customElement.newDocletHandler(e);
     polymerBehavior.newDocletHandler(e);
+  },
+  parseBegin: function(e) {
+      const files = e.sourcefiles = e.sourcefiles || [];
+
+      files.unshift(path.resolve(__dirname, 'typedefs.js'));
   }
 }
