@@ -1,3 +1,5 @@
+const path = require('path');
+
 /**
  * Add polymer tag suppor to jsdoc
  */
